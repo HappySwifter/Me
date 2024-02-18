@@ -1,0 +1,50 @@
+[
+  {
+    "mood": 0.1,
+    "solarPanels": 5,
+    "greenhouses": 2.5,
+    "size": 430,
+    "price": 10000,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 2.5,
+    "size": 430,
+    "price": 1500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3,
+    "size": 470,
+    "price": 2990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 460,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 3,
+    "size": 315,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7.5,
+    "greenhouses": 1.5,
+    "size": 245,
+    "price": 1500,
+    "purpose": "general"
+  }
+]

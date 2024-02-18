@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum RegressorError: Error {
+public enum RegressorError: Error {
     case customError(text: String)
 }

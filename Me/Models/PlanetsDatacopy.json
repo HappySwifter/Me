@@ -1,0 +1,3210 @@
+[
+  {
+    "mood": 0.1,
+    "solarPanels": 5,
+    "greenhouses": 2.5,
+    "size": 430,
+    "price": 10000,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 2.5,
+    "size": 430,
+    "price": 1500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3,
+    "size": 470,
+    "price": 2990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 460,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 3,
+    "size": 315,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7.5,
+    "greenhouses": 1.5,
+    "size": 245,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1.5,
+    "size": 340,
+    "price": 1150,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2,
+    "size": 300,
+    "price": 1700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1.5,
+    "size": 290,
+    "price": 1300,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 7.5,
+    "size": 1035,
+    "price": 7500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 2,
+    "size": 565,
+    "price": 1800,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 20,
+    "greenhouses": 6,
+    "size": 770,
+    "price": 76000,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 3,
+    "size": 350,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4.5,
+    "size": 450,
+    "price": 4500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4,
+    "size": 905,
+    "price": 6950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.5,
+    "size": 615,
+    "price": 3400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 585,
+    "price": 2300,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 3.5,
+    "size": 325,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 495,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.5,
+    "size": 540,
+    "price": 1990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 5,
+    "size": 595,
+    "price": 3500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4.5,
+    "size": 325,
+    "price": 1700,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6.25,
+    "greenhouses": 1,
+    "size": 425,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 32,
+    "greenhouses": 8,
+    "size": 1180,
+    "price": 19750,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1.5,
+    "size": 305,
+    "price": 990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 4,
+    "size": 600,
+    "price": 4850,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 4,
+    "size": 580,
+    "price": 2050,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1,
+    "size": 320,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 2,
+    "size": 560,
+    "price": 1650,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.5,
+    "size": 460,
+    "price": 2750,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 4.25,
+    "size": 235,
+    "price": 1400,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 680,
+    "price": 3950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 5.5,
+    "size": 815,
+    "price": 5990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 690,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 12,
+    "greenhouses": 4.25,
+    "size": 680,
+    "price": 30950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3.25,
+    "size": 535,
+    "price": 2700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 490,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 665,
+    "price": 4400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 690,
+    "price": 4600,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 605,
+    "price": 3900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 515,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5,
+    "size": 915,
+    "price": 8950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3,
+    "size": 290,
+    "price": 1500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3,
+    "size": 685,
+    "price": 5950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 2,
+    "size": 520,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 2,
+    "size": 390,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 5,
+    "size": 920,
+    "price": 8500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1.5,
+    "size": 230,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5.25,
+    "greenhouses": 4,
+    "size": 645,
+    "price": 2350,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1,
+    "size": 405,
+    "price": 1150,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 585,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 6.5,
+    "size": 900,
+    "price": 5500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 32,
+    "greenhouses": 5,
+    "size": 1080,
+    "price": 12450,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 2,
+    "size": 535,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4,
+    "size": 885,
+    "price": 7700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 470,
+    "price": 2100,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 455,
+    "price": 1550,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3,
+    "size": 405,
+    "price": 2900,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 16,
+    "greenhouses": 6.25,
+    "size": 780,
+    "price": 16950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 5.25,
+    "size": 600,
+    "price": 2300,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 515,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 3.5,
+    "size": 460,
+    "price": 1550,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.5,
+    "size": 540,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4.5,
+    "greenhouses": 3.5,
+    "size": 365,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 6.25,
+    "size": 745,
+    "price": 7700,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 675,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 5.75,
+    "size": 495,
+    "price": 2400,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 4,
+    "size": 1145,
+    "price": 10700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 515,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 560,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1,
+    "size": 225,
+    "price": 950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 1100,
+    "price": 10990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 330,
+    "price": 1150,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3,
+    "size": 890,
+    "price": 5450,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3.5,
+    "size": 565,
+    "price": 3990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 615,
+    "price": 3700,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 595,
+    "price": 2950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1.5,
+    "size": 450,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3.5,
+    "size": 320,
+    "price": 2200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 210,
+    "price": 750,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 385,
+    "price": 3050,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3,
+    "size": 495,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 380,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 4,
+    "size": 370,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 830,
+    "price": 4500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1.5,
+    "size": 470,
+    "price": 1400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4,
+    "size": 900,
+    "price": 5900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4.5,
+    "greenhouses": 5,
+    "size": 515,
+    "price": 2500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 920,
+    "price": 5500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3,
+    "size": 280,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 455,
+    "price": 25000,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 2.25,
+    "size": 455,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 1120,
+    "price": 10500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 2,
+    "size": 160,
+    "price": 950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3.5,
+    "size": 695,
+    "price": 4950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 1,
+    "size": 355,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 455,
+    "price": 2350,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 385,
+    "price": 2400,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5.5,
+    "size": 400,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2,
+    "size": 420,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1.25,
+    "size": 395,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 4.5,
+    "size": 685,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1.25,
+    "size": 520,
+    "price": 1400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3.5,
+    "size": 505,
+    "price": 2800,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3,
+    "size": 565,
+    "price": 4990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5.25,
+    "greenhouses": 2.5,
+    "size": 530,
+    "price": 1600,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 450,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3,
+    "size": 415,
+    "price": 2400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 5,
+    "size": 620,
+    "price": 4500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2.5,
+    "size": 470,
+    "price": 1700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 480,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3,
+    "size": 750,
+    "price": 5950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5.5,
+    "size": 615,
+    "price": 4300,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1,
+    "size": 470,
+    "price": 1650,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 505,
+    "price": 3300,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 395,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 290,
+    "price": 950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 650,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 580,
+    "price": 2700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.25,
+    "size": 400,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 3,
+    "size": 585,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.75,
+    "size": 320,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 545,
+    "price": 10990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 7.5,
+    "size": 1005,
+    "price": 10950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3.5,
+    "size": 350,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 32,
+    "greenhouses": 6,
+    "size": 1195,
+    "price": 15990,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 40,
+    "greenhouses": 8,
+    "size": 1405,
+    "price": 28500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 350,
+    "price": 2500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 395,
+    "price": 1800,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.75,
+    "size": 530,
+    "price": 3100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 720,
+    "price": 3200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 400,
+    "price": 990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2,
+    "size": 600,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3,
+    "size": 540,
+    "price": 3600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3.5,
+    "size": 540,
+    "price": 2150,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4.25,
+    "size": 990,
+    "price": 9990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 265,
+    "price": 990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.5,
+    "size": 385,
+    "price": 1650,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 6,
+    "size": 1005,
+    "price": 10300,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6.75,
+    "greenhouses": 1.5,
+    "size": 345,
+    "price": 900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 5,
+    "size": 320,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 440,
+    "price": 2990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1.5,
+    "size": 305,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3.5,
+    "size": 540,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1.5,
+    "size": 440,
+    "price": 1800,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2.5,
+    "size": 330,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 1,
+    "size": 215,
+    "price": 650,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 510,
+    "price": 2600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 1,
+    "size": 205,
+    "price": 1300,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3.25,
+    "size": 835,
+    "price": 5400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.5,
+    "size": 465,
+    "price": 1900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 7,
+    "size": 920,
+    "price": 9990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3.75,
+    "size": 395,
+    "price": 2150,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 640,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3.75,
+    "size": 880,
+    "price": 5700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4.5,
+    "size": 690,
+    "price": 3800,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 705,
+    "price": 3500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 4,
+    "size": 610,
+    "price": 2500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4.5,
+    "greenhouses": 2,
+    "size": 465,
+    "price": 1700,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 425,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5,
+    "size": 605,
+    "price": 5100,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 620,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4.25,
+    "size": 760,
+    "price": 4990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1,
+    "size": 260,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 695,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4.25,
+    "size": 525,
+    "price": 3950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3,
+    "size": 245,
+    "price": 1400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.75,
+    "size": 580,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 690,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 6,
+    "size": 860,
+    "price": 11400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.5,
+    "size": 445,
+    "price": 2950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 540,
+    "price": 2600,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 410,
+    "price": 1700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 5,
+    "size": 845,
+    "price": 9100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 3.5,
+    "size": 305,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 490,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 260,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 4,
+    "size": 630,
+    "price": 3500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 605,
+    "price": 2350,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 5.5,
+    "size": 745,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3.75,
+    "size": 200,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 6.25,
+    "size": 760,
+    "price": 6950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 5,
+    "greenhouses": 3,
+    "size": 555,
+    "price": 10850,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 385,
+    "price": 2100,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3,
+    "size": 685,
+    "price": 3950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4,
+    "size": 950,
+    "price": 8950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3,
+    "size": 310,
+    "price": 2250,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 7.5,
+    "size": 765,
+    "price": 8990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 525,
+    "price": 2700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3.25,
+    "size": 665,
+    "price": 3450,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 335,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2.75,
+    "size": 415,
+    "price": 1900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 6,
+    "size": 595,
+    "price": 5600,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 4,
+    "size": 765,
+    "price": 7100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3.75,
+    "size": 510,
+    "price": 3100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 6,
+    "size": 780,
+    "price": 8450,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 725,
+    "price": 5950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3.5,
+    "size": 385,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5,
+    "size": 875,
+    "price": 7500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3.5,
+    "size": 300,
+    "price": 2050,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3,
+    "size": 650,
+    "price": 3300,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.5,
+    "size": 665,
+    "price": 2550,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 315,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 860,
+    "price": 9200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1,
+    "size": 555,
+    "price": 1700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 6,
+    "size": 455,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 1.25,
+    "size": 465,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2.25,
+    "size": 465,
+    "price": 1700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 610,
+    "price": 3990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 4,
+    "size": 745,
+    "price": 6800,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 3,
+    "size": 620,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 5.75,
+    "size": 555,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 375,
+    "price": 1850,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1.5,
+    "size": 545,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3,
+    "size": 240,
+    "price": 2950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7.5,
+    "greenhouses": 3.5,
+    "size": 315,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2.25,
+    "size": 505,
+    "price": 2950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4.5,
+    "size": 750,
+    "price": 6950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 695,
+    "price": 3900,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 4,
+    "size": 400,
+    "price": 2300,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 585,
+    "price": 1700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2.25,
+    "size": 345,
+    "price": 1750,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3.5,
+    "size": 490,
+    "price": 2500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3.25,
+    "size": 740,
+    "price": 4300,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 505,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 2,
+    "size": 535,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1.5,
+    "size": 350,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 5,
+    "size": 685,
+    "price": 5400,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 285,
+    "price": 800,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 515,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 1.75,
+    "size": 530,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5.5,
+    "size": 920,
+    "price": 8700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 3.5,
+    "size": 360,
+    "price": 1100,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 565,
+    "price": 3800,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7.25,
+    "greenhouses": 1.5,
+    "size": 385,
+    "price": 1500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 545,
+    "price": 2500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 615,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 450,
+    "price": 2250,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2,
+    "size": 310,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1.5,
+    "size": 390,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2.5,
+    "size": 415,
+    "price": 1700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 515,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 32,
+    "greenhouses": 4.5,
+    "size": 845,
+    "price": 8950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3,
+    "size": 620,
+    "price": 2500,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 32,
+    "greenhouses": 5,
+    "size": 1160,
+    "price": 12900,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4.5,
+    "size": 390,
+    "price": 3500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1.25,
+    "size": 440,
+    "price": 1600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3,
+    "size": 585,
+    "price": 2050,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 415,
+    "price": 1990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 4,
+    "size": 395,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 520,
+    "price": 1800,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3.5,
+    "size": 695,
+    "price": 3200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 5,
+    "size": 1050,
+    "price": 9950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1.5,
+    "size": 585,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 390,
+    "price": 2990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5.75,
+    "greenhouses": 1,
+    "size": 300,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 330,
+    "price": 1990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 1,
+    "size": 345,
+    "price": 800,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 6,
+    "size": 820,
+    "price": 5950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 290,
+    "price": 1850,
+    "purpose": "general"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 14,
+    "greenhouses": 1.25,
+    "size": 435,
+    "price": 9000,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 150,
+    "price": 500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 355,
+    "price": 1200,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4.25,
+    "size": 885,
+    "price": 7950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1.75,
+    "size": 255,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3.25,
+    "size": 570,
+    "price": 3950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5.5,
+    "greenhouses": 4,
+    "size": 625,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 1115,
+    "price": 11950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 630,
+    "price": 2950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 480,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3.5,
+    "size": 675,
+    "price": 3990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 380,
+    "price": 3200,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 2,
+    "size": 480,
+    "price": 1300,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 450,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2,
+    "size": 480,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 6.5,
+    "size": 795,
+    "price": 6990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 705,
+    "price": 8500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 215,
+    "price": 700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 6.75,
+    "size": 930,
+    "price": 9050,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 285,
+    "price": 1400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 1,
+    "size": 260,
+    "price": 1150,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 460,
+    "price": 1600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 4,
+    "size": 500,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 6.5,
+    "size": 555,
+    "price": 4500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 5,
+    "size": 580,
+    "price": 3850,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 7.25,
+    "size": 780,
+    "price": 8850,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 380,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5,
+    "size": 620,
+    "price": 5950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 3,
+    "size": 620,
+    "price": 3200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 525,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4,
+    "size": 500,
+    "price": 3990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 2,
+    "size": 455,
+    "price": 1200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3,
+    "size": 390,
+    "price": 1850,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 2,
+    "size": 365,
+    "price": 1800,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5.5,
+    "size": 725,
+    "price": 7990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 685,
+    "price": 2900,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7.5,
+    "greenhouses": 2.5,
+    "size": 315,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 2,
+    "size": 445,
+    "price": 1700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 590,
+    "price": 2850,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 620,
+    "price": 3600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 5,
+    "size": 485,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 4,
+    "size": 385,
+    "price": 1900,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 620,
+    "price": 2400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.25,
+    "size": 380,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 5,
+    "size": 505,
+    "price": 2100,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.25,
+    "size": 495,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 4,
+    "size": 645,
+    "price": 5990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 4,
+    "size": 255,
+    "price": 1950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 225,
+    "price": 700,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 1.5,
+    "size": 275,
+    "price": 990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2.5,
+    "size": 545,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5.5,
+    "greenhouses": 1.5,
+    "size": 410,
+    "price": 950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4.25,
+    "greenhouses": 1,
+    "size": 290,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 3.5,
+    "size": 400,
+    "price": 2450,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 3.5,
+    "size": 590,
+    "price": 2500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2.5,
+    "size": 335,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 595,
+    "price": 2800,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 4.5,
+    "size": 390,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4,
+    "size": 640,
+    "price": 4990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 2,
+    "size": 605,
+    "price": 2100,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4.75,
+    "size": 795,
+    "price": 3950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 5,
+    "greenhouses": 4.25,
+    "size": 620,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2.5,
+    "size": 375,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 1,
+    "size": 345,
+    "price": 990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 365,
+    "price": 1050,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 4,
+    "size": 900,
+    "price": 6500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 7,
+    "size": 1115,
+    "price": 11950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2,
+    "size": 485,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 4.5,
+    "size": 600,
+    "price": 1800,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 460,
+    "price": 2950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 475,
+    "price": 3300,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 5,
+    "size": 450,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.5,
+    "size": 305,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4,
+    "size": 790,
+    "price": 7500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 395,
+    "price": 1990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 220,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 5,
+    "size": 750,
+    "price": 7700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3.5,
+    "size": 980,
+    "price": 6600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 1.5,
+    "size": 395,
+    "price": 1200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6,
+    "greenhouses": 4,
+    "size": 680,
+    "price": 2900,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1.5,
+    "size": 595,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2,
+    "size": 225,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6.5,
+    "greenhouses": 3,
+    "size": 555,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3,
+    "size": 280,
+    "price": 1150,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 540,
+    "price": 1600,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2,
+    "size": 530,
+    "price": 1950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 605,
+    "price": 3250,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 705,
+    "price": 3500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 680,
+    "price": 5500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 6,
+    "size": 525,
+    "price": 4950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 710,
+    "price": 3450,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1,
+    "size": 525,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6.5,
+    "greenhouses": 3,
+    "size": 355,
+    "price": 1350,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 535,
+    "price": 2800,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1,
+    "size": 315,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4,
+    "size": 900,
+    "price": 6990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.25,
+    "size": 545,
+    "price": 3100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 550,
+    "price": 1950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 1,
+    "size": 510,
+    "price": 1250,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 405,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4,
+    "greenhouses": 1,
+    "size": 215,
+    "price": 750,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4,
+    "size": 415,
+    "price": 3200,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 4.5,
+    "size": 725,
+    "price": 6850,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 6.5,
+    "greenhouses": 1,
+    "size": 425,
+    "price": 1050,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 530,
+    "price": 4200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 2.5,
+    "size": 645,
+    "price": 3200,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 2,
+    "size": 690,
+    "price": 3350,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 630,
+    "price": 3100,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 780,
+    "price": 4990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 4.5,
+    "greenhouses": 1,
+    "size": 460,
+    "price": 990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 3,
+    "size": 670,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2,
+    "size": 715,
+    "price": 3990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 495,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 2,
+    "size": 510,
+    "price": 2400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4,
+    "size": 540,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 0,
+    "solarPanels": 36,
+    "greenhouses": 6.5,
+    "size": 1160,
+    "price": 17900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 1.5,
+    "size": 380,
+    "price": 1990,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 4,
+    "size": 875,
+    "price": 6700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 3,
+    "size": 440,
+    "price": 1990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 3,
+    "size": 615,
+    "price": 2700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 5,
+    "size": 805,
+    "price": 7500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 7,
+    "greenhouses": 2.25,
+    "size": 515,
+    "price": 2400,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4.25,
+    "size": 480,
+    "price": 3500,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3,
+    "size": 605,
+    "price": 4900,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 370,
+    "price": 1400,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 8,
+    "greenhouses": 6.75,
+    "size": 825,
+    "price": 4200,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 5,
+    "size": 450,
+    "price": 2990,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 4.5,
+    "size": 450,
+    "price": 2950,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 1,
+    "size": 290,
+    "price": 1500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 24,
+    "greenhouses": 2.5,
+    "size": 640,
+    "price": 3950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 20,
+    "greenhouses": 4.5,
+    "size": 895,
+    "price": 5900,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 4.5,
+    "size": 495,
+    "price": 2500,
+    "purpose": "farm"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 14,
+    "greenhouses": 3,
+    "size": 570,
+    "price": 3700,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 2.25,
+    "size": 440,
+    "price": 2050,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 28,
+    "greenhouses": 3.75,
+    "size": 845,
+    "price": 6950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1,
+    "size": 665,
+    "price": 2050,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 1.25,
+    "size": 600,
+    "price": 2500,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 2.5,
+    "size": 440,
+    "price": 1990,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 10,
+    "greenhouses": 1,
+    "size": 285,
+    "price": 950,
+    "purpose": "power"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 16,
+    "greenhouses": 4,
+    "size": 530,
+    "price": 3950,
+    "purpose": "general"
+  },
+  {
+    "mood": 1,
+    "solarPanels": 12,
+    "greenhouses": 6,
+    "size": 490,
+    "price": 4500,
+    "purpose": "farm"
+  }
+]

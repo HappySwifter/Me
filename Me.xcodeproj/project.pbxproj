@@ -16,7 +16,6 @@
 		AC7BCE1F2B811F2900437FA6 /* MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BCE1E2B811F2900437FA6 /* MeUITests.swift */; };
 		AC7BCE212B811F2900437FA6 /* MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BCE202B811F2900437FA6 /* MeUITestsLaunchTests.swift */; };
 		AC7BCE342B8120CE00437FA6 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BCE332B8120CE00437FA6 /* House.swift */; };
-		AC7BCE3B2B81220700437FA6 /* MarsHabitats.csv in Resources */ = {isa = PBXBuildFile; fileRef = AC7BCE3A2B81220700437FA6 /* MarsHabitats.csv */; };
 		AC8F01722B81FA740030EA44 /* FeatureExtractor.docc in Sources */ = {isa = PBXBuildFile; fileRef = AC8F01712B81FA740030EA44 /* FeatureExtractor.docc */; };
 		AC8F01782B81FA740030EA44 /* FeatureExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F016E2B81FA740030EA44 /* FeatureExtractor.framework */; };
 		AC8F017F2B81FA740030EA44 /* FeatureExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F017E2B81FA740030EA44 /* FeatureExtractorTests.swift */; };
@@ -30,6 +29,9 @@
 		AC8F01922B81FADA0030EA44 /* Regressors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BCE2E2B81205D00437FA6 /* Regressors.swift */; };
 		AC9144D42B81D1410034C340 /* FeaturesChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9144D32B81D1410034C340 /* FeaturesChartView.swift */; };
 		ACBF08FF2B8217F1004273C2 /* EvalParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBF08FD2B8217BD004273C2 /* EvalParameters.swift */; };
+		ACBF09012B8225AD004273C2 /* PlanetsData.json in Resources */ = {isa = PBXBuildFile; fileRef = ACBF09002B8225AD004273C2 /* PlanetsData.json */; };
+		ACCA1B202B822B950025D872 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA1B1F2B822B950025D872 /* Helpers.swift */; };
+		ACCA1B222B822FCE0025D872 /* PlanetsData.csv in Resources */ = {isa = PBXBuildFile; fileRef = ACCA1B212B822FCE0025D872 /* PlanetsData.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +101,6 @@
 		AC7BCE2E2B81205D00437FA6 /* Regressors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regressors.swift; sourceTree = "<group>"; };
 		AC7BCE302B81209000437FA6 /* Regressabe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regressabe.swift; sourceTree = "<group>"; };
 		AC7BCE332B8120CE00437FA6 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
-		AC7BCE3A2B81220700437FA6 /* MarsHabitats.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarsHabitats.csv; sourceTree = "<group>"; };
 		AC7BCE3C2B81229100437FA6 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		AC8F016E2B81FA740030EA44 /* FeatureExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeatureExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8F01702B81FA740030EA44 /* FeatureExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeatureExtractor.h; sourceTree = "<group>"; };
@@ -110,6 +111,9 @@
 		AC9144D12B81CE470034C340 /* Mse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mse.swift; sourceTree = "<group>"; };
 		AC9144D32B81D1410034C340 /* FeaturesChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesChartView.swift; sourceTree = "<group>"; };
 		ACBF08FD2B8217BD004273C2 /* EvalParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvalParameters.swift; sourceTree = "<group>"; };
+		ACBF09002B8225AD004273C2 /* PlanetsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlanetsData.json; sourceTree = "<group>"; };
+		ACCA1B1F2B822B950025D872 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		ACCA1B212B822FCE0025D872 /* PlanetsData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PlanetsData.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,11 +184,12 @@
 		AC7BCE002B811F2700437FA6 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				AC7BCE322B8120BE00437FA6 /* Models */,
 				AC7BCE2D2B81204800437FA6 /* FeatureExtractor */,
+				AC7BCE322B8120BE00437FA6 /* Models */,
 				AC7BCE012B811F2700437FA6 /* MeApp.swift */,
 				AC9144D32B81D1410034C340 /* FeaturesChartView.swift */,
 				AC7BCE032B811F2700437FA6 /* ContentView.swift */,
+				ACCA1B1F2B822B950025D872 /* Helpers.swift */,
 				AC7BCE052B811F2700437FA6 /* Item.swift */,
 				AC7BCE072B811F2800437FA6 /* Assets.xcassets */,
 				AC7BCE092B811F2800437FA6 /* Preview Content */,
@@ -230,8 +235,9 @@
 		AC7BCE322B8120BE00437FA6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACCA1B212B822FCE0025D872 /* PlanetsData.csv */,
+				ACBF09002B8225AD004273C2 /* PlanetsData.json */,
 				AC7BCE332B8120CE00437FA6 /* House.swift */,
-				AC7BCE3A2B81220700437FA6 /* MarsHabitats.csv */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -428,8 +434,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7BCE0B2B811F2800437FA6 /* Preview Assets.xcassets in Resources */,
+				ACBF09012B8225AD004273C2 /* PlanetsData.json in Resources */,
+				ACCA1B222B822FCE0025D872 /* PlanetsData.csv in Resources */,
 				AC7BCE082B811F2800437FA6 /* Assets.xcassets in Resources */,
-				AC7BCE3B2B81220700437FA6 /* MarsHabitats.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7BCE042B811F2700437FA6 /* ContentView.swift in Sources */,
+				ACCA1B202B822B950025D872 /* Helpers.swift in Sources */,
 				AC7BCE062B811F2700437FA6 /* Item.swift in Sources */,
 				AC9144D42B81D1410034C340 /* FeaturesChartView.swift in Sources */,
 				AC7BCE022B811F2700437FA6 /* MeApp.swift in Sources */,
