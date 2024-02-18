@@ -9,29 +9,24 @@ import Foundation
 import CreateML
 import TabularData
 
-class Regressors {
-    public var linearRegressor: MLLinearRegressor?
+public struct Regressors {
     public var randomForest: MLRandomForestRegressor?
     public var boostedTree: MLBoostedTreeRegressor?
     public var decisionTree: MLDecisionTreeRegressor?
     
     
-    func printRegrMetrics(title: String, metr: MLRegressorMetrics) {
-        func x2(_ val: Double) -> String {
-            String(format: "%.2f", val)
-        }
+    private static func printRegrMetrics(title: String, metr: MLRegressorMetrics) {
+        func x2(_ val: Double) -> String { String(format: "%.2f", val) }
         print(title, " RMSE:", x2(metr.rootMeanSquaredError * 100), "MAX:", x2(metr.maximumError * 100))
     }
     
-    public func train(df: DataFrame, l1Penalty: Double = 0) throws {
-
-        
+    public static func trainLinearRegressor(dataFrame: DataFrame, l1Penalty: Double = 0) throws -> MLLinearRegressor {
         let params = MLLinearRegressor.ModelParameters(validation: .split(strategy: .automatic), l1Penalty: l1Penalty)
-        linearRegressor = try MLLinearRegressor(trainingData: df, targetColumn: "mood", parameters: params)
-        printRegrMetrics(title: "Train LinearRegressor", metr: linearRegressor!.trainingMetrics)
-        printRegrMetrics(title: "Validate LinearRegressor", metr: linearRegressor!.validationMetrics)
-        print("\n")
-
+        let linearRegressor = try MLLinearRegressor(trainingData: dataFrame, targetColumn: "mood", parameters: params)
+        printRegrMetrics(title: "Train LinearRegressor", metr: linearRegressor.trainingMetrics)
+        printRegrMetrics(title: "Validate LinearRegressor", metr: linearRegressor.validationMetrics)
+        return linearRegressor
+        
 //        regressor = try MLRegressor(trainingData: df, targetColumn: "mood")
 //        printRegrMetrics(title: "Train Regressor", metr: regressor!.trainingMetrics)
 //        printRegrMetrics(title: "Validate Regressor", metr: regressor!.validationMetrics)
@@ -43,10 +38,10 @@ class Regressors {
 //
 //        print("\n")
 
-        boostedTree = try MLBoostedTreeRegressor(trainingData: df, targetColumn: "mood")
-        printRegrMetrics(title: "Train boostedTree", metr: boostedTree!.trainingMetrics)
-        printRegrMetrics(title: "Validate boostedTree", metr: boostedTree!.validationMetrics)
-        print("\n")
+//        boostedTree = try MLBoostedTreeRegressor(trainingData: df, targetColumn: "mood")
+//        printRegrMetrics(title: "Train boostedTree", metr: boostedTree!.trainingMetrics)
+//        printRegrMetrics(title: "Validate boostedTree", metr: boostedTree!.validationMetrics)
+//        print("\n")
 
 
 //        decisionTree = try MLDecisionTreeRegressor(trainingData: regressorTable, targetColumn: "mood")

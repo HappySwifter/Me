@@ -10,68 +10,66 @@ import TabularData
 import CoreML
 import CreateML
 
-struct Predictor {
+public struct Predictor {
     
-    
-//    // Define a function to shuffle rows in a column
-//    static func shuffleRowsInColumn(df: DataFrame, column: String) -> DataFrame {
-//      // Get the values of the column as an array
-//      var values = df[column].values
-//      // Shuffle the array using the Fisher-Yates algorithm
-//      for i in stride(from: values.count - 1, to: 0, by: -1) {
-//        let j = Int.random (in: 0...i)
-//        values.swapAt (i, j)
-//      }
-//      // Create a new DataFrame with the shuffled column
-//      var newDf = df
-//      newDf[column] = Column(values)
-//      // Return the new DataFrame
-//      return newDf
-//    }
-    
-
-//    static func dataFrame(from house: [House]) throws -> DataFrame {
-//        let data = try JSONEncoder().encode(house)
-//        return try DataFrame(jsonData: data)
-//    }
-
-//    static func predict(regr: Regressabe, house: House) throws {
-//        let dataframe = try dataFrame(from: [house])
-//        let pred = try regr.predictions(from: dataframe)
-//        let type = pred.assumingType(Double.self)
-//        let mean = type.mean()!
-//        print("Predicted mood: ", String(format: "%.2f", mean))
-//        print("Actual mood: ", house.mood)
-//    }
-    
-    static func evaluate(regr: Regressabe, featureName: String, df: DataFrame) throws -> EvalResult {
-        let eval = regr.evaluation(on: df)
-        if let error = eval.error {
-            print("!!!!", error.localizedDescription)
-        }
-        
-        
-        return EvalResult(feature: featureName,
-                          maxError: eval.maximumError,
-                          rmse: eval.rootMeanSquaredError)
-    }
-
-    static func adjust(regr: Regressabe,
-                       df: DataFrame,
-                       maxCount: Int,
-                       featureName: String) throws -> EvalResult {
+    private static func shuffle(columnName: String, for df: DataFrame) -> DataFrame {
+        let shuffled = df[columnName].shuffled()
         var mutableCopy = df
-        if featureName == "price" || featureName == "size" {
-            mutableCopy[featureName] = mutableCopy[featureName].map { _ in
-                (mutableCopy[featureName].randomElement()! as! Int)
-            }
-        } else {
-            mutableCopy[featureName] = mutableCopy[featureName].map { _ in
-                (mutableCopy[featureName].randomElement()! as! Double)
-            }
+        for index in 0..<shuffled.count {
+            mutableCopy[columnName][index] = shuffled[index]
         }
-        let truncated = DataFrame(mutableCopy.prefix(maxCount))
-        return try evaluate(regr: regr, featureName: featureName, df: mutableCopy)
+        return mutableCopy
     }
     
+    public static func getFeatureImportance(dataFrame: DataFrame,
+                                            featureName: String,
+                                            regressor: Regressabe,
+                                            parameters: EvalParameters) throws -> Mse
+    {
+        let truncated = DataFrame(dataFrame.prefix(parameters.maxRowsCount))
+        let shuffledDf = shuffle(columnName: featureName, for: truncated)
+        let evaluation = regressor.evaluation(on: shuffledDf)
+        if let error = evaluation.error {
+            throw RegressorError.customError(text: error.localizedDescription)
+        } else {
+            return normalizeErrorValues(feature: featureName,
+                                        regressor: regressor,
+                                        shuffled: evaluation,
+                                        parameters: parameters)
+        }
+    }
+    
+    public static func normalizeErrorValues(feature: String,
+                                            regressor: Regressabe,
+                                            shuffled: MLRegressorMetrics,
+                                            parameters: EvalParameters) -> Mse {
+        let percentValue: Double = parameters.percentValue ? 100 : 1
+        if parameters.normalized {
+            let trainMse = regressor.trainingMetrics.rootMeanSquaredError
+            let validationMse = regressor.validationMetrics.rootMeanSquaredError
+            let trainDiff = abs(shuffled.rootMeanSquaredError - trainMse) * percentValue
+            let validateDiff = abs(shuffled.rootMeanSquaredError - validationMse) * percentValue
+            return Mse(feature: feature, train: trainDiff, validate: validateDiff)
+        } else {
+            let mse = shuffled.rootMeanSquaredError * percentValue
+            return Mse(feature: feature,
+                       train: mse,
+                       validate: mse)
+        }
+    }
+    
+//    private static func fd(_ val: Double, pres: Int = 0) -> String {
+//        String(format: "%.\(pres)f", val)
+//    }
+//        
+//    public static func printError(mse: Mse) {
+//        print("Diif with trained")
+//        print("Mean:", fd(mse.train))
+////        print("Max:", fd((shufMax - train.maximumError) * 100))
+//        
+//        print("Diff with validation")
+//        print("Mean:", fd(mse.validate))
+////        print("Max:", fd((shufMax - validate.maximumError) * 100))
+//        print()
+//    }
 }

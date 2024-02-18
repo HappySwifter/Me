@@ -9,7 +9,10 @@ import Foundation
 import CreateML
 import TabularData
 
-protocol Regressabe {
+public protocol Regressabe {
+    var trainingMetrics: MLRegressorMetrics { get }
+    var validationMetrics: MLRegressorMetrics { get }
+    
     func evaluation(on labeledData: DataFrame) -> MLRegressorMetrics
     func predictions(from data: DataFrame) throws -> AnyColumn
 }
@@ -18,3 +21,5 @@ extension MLLinearRegressor: Regressabe {}
 extension MLRandomForestRegressor: Regressabe {}
 extension MLBoostedTreeRegressor: Regressabe {}
 extension MLDecisionTreeRegressor: Regressabe {}
+
+

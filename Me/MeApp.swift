@@ -8,15 +8,18 @@
 import SwiftUI
 import SwiftData
 import TabularData
+import FeatureExtractor
 
 @main
 struct MeApp: App {
+    var featuresImportance = [Mse]()
+    
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
@@ -27,40 +30,33 @@ struct MeApp: App {
     init() {
         do {
             let csvFile = Bundle.main.url(forResource: "MarsHabitats", withExtension: "csv")!
-            let dataFrame = try DataFrame(contentsOfCSVFile: csvFile)
-
-            let regressorColumns = ["price", "solarPanels", "greenhouses", "size", "mood"]
-            let df = dataFrame[regressorColumns]
-            print(df)
-
-
-            let regressors = Regressors()
-            try regressors.train(df: df, l1Penalty: 1)
-
-
-            var results = try House.FeatureEnum.allCases.map {
-                try Predictor.adjust(regr: regressors.linearRegressor!,
-                           df: df,
-                           maxCount: 400,
-                           featureName: $0.description)
+            let columns = ["price", "solarPanels", "greenhouses", "size", "mood"]
+            let dataFrame = try DataFrame(contentsOfCSVFile: csvFile, columns: columns)
+            
+            let regressor = try Regressors.trainLinearRegressor(dataFrame: dataFrame,
+                                                                l1Penalty: 0.5)
+            
+            let params = EvalParameters(maxRowsCount: dataFrame.rows.count,
+                                        normalized: true,
+                                        percentValue: true)
+            featuresImportance.removeAll()
+            try House.FeatureEnum.allCases.forEach {
+                let result = try Predictor.getFeatureImportance(
+                    dataFrame: dataFrame,
+                    featureName: $0.description,
+                    regressor: regressor,
+                    parameters: params)
+                
+                featuresImportance.append(result)
             }
-
-            Helpers.printError(from: results)
         } catch {
             print(error)
         }
-
-
-
-        // туду вычислять разницу для мах ошибки и для мсе
-            // забилдить на телефоне
-        // интерфейс чтобы можно было добавлять новое значение и смотреть как меняется важность фичей
-
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeaturesChartView(data: featuresImportance)
         }
         .modelContainer(sharedModelContainer)
     }
