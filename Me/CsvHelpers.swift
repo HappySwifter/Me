@@ -63,15 +63,12 @@ struct CsvHelpers {
         return features
     }
     
-//    func getRows<T>() throws -> [[Item<T>]] {
-//        
-//    }
-    
     func add<T>(feature: Feature, value: Item<T>) throws {
         logger.info("Adding new feature. Name: \(feature.name)")
         var dataFrame = try getDataFrame()
         logger.info("Saving to DF:\n \(dataFrame)")
-        let contents = Array(repeating: value.value, count: dataFrame.rows.count)
+        let rowsCount = dataFrame.rows.count
+        let contents = Array(repeating: value.value, count: rowsCount == 0 ? 1 : rowsCount)
         let column = Column(name: feature.name, contents: contents)
         if !dataFrame.containsColumn(feature.name) {
             dataFrame.append(column: column)
@@ -79,21 +76,15 @@ struct CsvHelpers {
         logger.info("Updated DF:\n\(dataFrame)")
         try save(dataFrame: dataFrame)
     }
-    
-    func saveNew<T>(item: Item<T>) throws {
+        
+    func add<T>(row: [Item<T>]) throws {
         var dataFrame = try getDataFrame()
-        let dict = [item.featureName: item.value]
+        var dict = [String: Any]()
+        for item in row {
+            dict[item.featureName] = item.value
+        }
         dataFrame.append(valuesByColumn: dict)
         logger.info("Added new row:\n\(dataFrame)")
         try save(dataFrame: dataFrame)
     }
 }
-
-
-//        try save(dataFrame: dataFrame)
-//        var csvString = try String(contentsOf: csvUrl)
-//        let values = rowItems.map { $0.value }
-//        appendString(from: values, to: &csvString)
-//        try csvString.write(to: csvUrl, atomically: true, encoding: .utf8)
-//        let dframe = try DataFrame(contentsOfCSVFile: csvUrl)
-//        print(dframe)

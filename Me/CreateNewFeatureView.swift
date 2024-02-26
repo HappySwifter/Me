@@ -101,7 +101,7 @@ struct CreateNewFeatureView: View {
         case .yesNo:
             return true
         case .mumeric:
-            return false
+            return true
         }
     }
     
@@ -116,8 +116,18 @@ struct CreateNewFeatureView: View {
                                   options: options.map { $0.wrappedValue })
             do {
                 let date = Calendar(identifier: .gregorian).startOfDay(for: Date())
-                let item = Item(timestamp: date, featureName: name, value: 0)
-                try csvHelpers.add(feature: feature, value: item)
+                switch pickedType {
+                case .option:
+                    let item = Item(timestamp: date, featureName: name, value: options.first?.wrappedValue ?? "")
+                    try csvHelpers.add(feature: feature, value: item)
+                case .yesNo:
+                    let item = Item(timestamp: date, featureName: name, value: true)
+                    try csvHelpers.add(feature: feature, value: item)
+                case .mumeric:
+                    let item = Item(timestamp: date, featureName: name, value: 0.0)
+                    try csvHelpers.add(feature: feature, value: item)
+                }
+                
                 modelContext.insert(feature)
                 try modelContext.save()
                 showSheet = false

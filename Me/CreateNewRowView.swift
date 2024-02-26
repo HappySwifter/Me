@@ -13,20 +13,45 @@ struct CreateNewRowView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(Array(zip(viewModel.features.indices, viewModel.features)), id: \.0) { index, item in
+            VStack {
+                ForEach(Array(zip(viewModel.features.indices, viewModel.features)), id: \.0) { index, feature in
                     
-                    HStack {
-                        Image(systemName:"person").foregroundColor(.gray).padding(10)
+                    switch feature.type {
+                    case .option:
                         
-                        TextField("\(item.name)", text: Binding(
-                            get: { return viewModel.values[index].wrappedValue },
-                            set: { (newValue) in return viewModel.values[index] = .constant(newValue) }
-                        ))
+                        VStack {
+                            Text(feature.name)
+                            Picker(selection: Binding(
+                                get: { return viewModel.values[index].wrappedValue },
+                                set: { (newValue) in return viewModel.values[index] = .constant(newValue) }
+                            )) {
+                                ForEach(feature.options, id: \.self) { option in
+                                    Text(option)
+                                }
+                            } label: {
+                                Text("")
+                            }
+                            .pickerStyle(.segmented)
+                        }
+                        
+                        
+                    case .yesNo:
+                        Toggle(isOn: Binding(
+                            get: {
+                                return viewModel.boolValue(for: index)
+                            },
+                            set: { (newValue) in
+                                return viewModel.values[index] = .constant(newValue.description) }
+                        )) {
+                            Text(feature.name)
+                        }
+                        
+                    case .mumeric:
+                        Spacer()
                     }
-                    .border(.gray)
+                    
                 }
-                
+                Spacer()
             }
             .toolbar {
                 ToolbarItem {
@@ -39,13 +64,14 @@ struct CreateNewRowView: View {
     }
 }
 
+
 @Observable
 class CreateNewRowViewModel {
     var modelContext: ModelContext
     var features = [Feature]()
     var values = [Binding<String>]()
     let csvHelpers: CsvHelpers
-
+    
     
     init(modelContext: ModelContext, csvHelpers: CsvHelpers) {
         self.modelContext = modelContext
@@ -53,11 +79,23 @@ class CreateNewRowViewModel {
         fetchData()
     }
     
+    func boolValue(for index: Int) -> Bool {
+        Bool(values[index].wrappedValue)!
+    }
+    
     func fetchData() {
         do {
             features = try csvHelpers.getFeatures()
-            features.forEach { _ in
-                values.append(.constant(""))
+            features.forEach { feature in
+                switch feature.type {
+                case .option:
+                    values.append(.constant(feature.options.first ?? ""))
+                case .yesNo:
+                    values.append(.constant("true"))
+                case .mumeric:
+                    values.append(.constant("0"))
+                }
+                
             }
         } catch {
             print("Fetch failed", error)
@@ -65,18 +103,39 @@ class CreateNewRowViewModel {
     }
     
     func saveRow() {
+        print(values.map { $0.wrappedValue })
+        
         let date = Calendar(identifier: .gregorian).startOfDay(for: Date())
         do {
+            var items = [Item<Any>]()
+            
             for (index, value) in values.enumerated() {
-                let item = Item(timestamp: date,
-                                featureName: features[index].name,
-                                value: Double(value.wrappedValue)!)
-                try csvHelpers.saveNew(item: item)
+                let type = features[index].type
+                let item: Item<Any>
+                switch type {
+                case .option:
+                    item = Item(timestamp: date,
+                                    featureName: features[index].name,
+                                    value: value.wrappedValue as Any)
+                    
+                case .yesNo:
+                    item = Item(timestamp: date,
+                                    featureName: features[index].name,
+                                    value: Bool(value.wrappedValue)! as Any)
+                case .mumeric:
+                    item = Item(timestamp: date,
+                                    featureName: features[index].name,
+                                    value: Double(value.wrappedValue)! as Any)
+                }
+                items.append(item)
             }
+            try csvHelpers.add(row: items)
+            
         } catch {
             print(error)
         }
     }
+    
 }
 
 #Preview {

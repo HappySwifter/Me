@@ -36,9 +36,9 @@ enum InputType: String, CaseIterable, Codable {
 final class Feature {
     var name: String
     var type: InputType
-    let options: [String]?
+    let options: [String]
 
-    init(name: String, type: InputType, options: [String]?) {
+    init(name: String, type: InputType, options: [String]) {
         self.name = name
         self.type = type
         self.options = options
