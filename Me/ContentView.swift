@@ -7,55 +7,49 @@
 
 import SwiftUI
 import SwiftData
+import TabularData
 
 struct ContentView: View {
+    let csvHelpers: CsvHelpers
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    @State var isCreateFeaturePresented = false
+    @State var isCreateRowPresented = false
+    
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+                
             }
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
+                ToolbarItem {
+                    Button("Add row", systemImage: "plus") {
+                        isCreateRowPresented.toggle()
+                    }
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button("Add Feature", systemImage: "heart") {
+                        isCreateFeaturePresented.toggle()
                     }
+
                 }
             }
         } detail: {
             Text("Select an item")
         }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+        .popover(isPresented: $isCreateFeaturePresented) {
+            CreateNewFeatureView(csvHelpers: csvHelpers, showSheet: $isCreateFeaturePresented)
+        }
+        .popover(isPresented: $isCreateRowPresented) {
+            CreateNewRowView(viewModel: CreateNewRowViewModel(modelContext: modelContext, csvHelpers: csvHelpers))
+        }
+        .onAppear {
+            
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
-    }
 }
 
 #Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+    ContentView(csvHelpers: MeApp().csv)
+
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-feature-importance?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HappySwifter/Swift-feature-importance?tab=readme-ov-file",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6bb00ff6ea86788374855befb2ddd409574cea00"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import HealthKit
 
 struct Helpers {
     enum FileError: Error {
@@ -45,6 +46,13 @@ struct Helpers {
                 throw FileError.fileSaveError
             }
         }
+    }
+    
+    static func getThisDayPredicate() -> NSPredicate {
+        let calendar = Calendar(identifier: .gregorian)
+        let startDate = calendar.startOfDay(for: Date())
+        let endDate = calendar.date(byAdding: .day, value: 1, to: startDate)
+        return HKQuery.predicateForSamples(withStart: startDate, end: endDate)
     }
 }
 
